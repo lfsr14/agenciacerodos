@@ -65,3 +65,53 @@ button {
 a {
 	color: inherit;
 }
+
+
+/* ESTILOS PROPIOS */
+
+/* ESTILIZAR SCROLL BAR */
+::-webkit-scrollbar {
+    width: 5px; /* Ancho del scrollbar */
+} 
+/* Estilos para el scrollbar del thumb (la barra deslizante) */
+::-webkit-scrollbar-thumb {
+	background-color: #888; /* Color del thumb */	
+	/*border-radius: 5px;  Borde redondeado */
+}
+/* Estilos para el scrollbar del track (la barra de fondo) */
+::-webkit-scrollbar-track {
+	background-color: #f2f2f2; /* Color del track */
+}
+
+/* FUENTES */
+.rubik {
+	font-family: 'Rubik 80s Fade', system-ui;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 100px !important;
+}
+.rubik-opt {
+	font-family: 'Rubik 80s Fade', system-ui;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 60px !important;
+	color: white;
+}
+.bungee-hairline {
+	font-family: 'Bungee Hairline', sans-serif;
+	font-weight: 400 !important;
+	font-style: normal;
+}
+.bungee-hairline-opt {
+	font-family: 'Bungee Hairline', sans-serif;
+	font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+	.rubik {
+		font-size: 60px !important;
+	}
+	.rubik-opt {
+		font-size: 40px !important;
+	}
+}

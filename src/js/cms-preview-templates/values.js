@@ -34,6 +34,6 @@ export default class ValuesPreview extends React.Component {
           )}
         </div>
       </div>
-    </div>;
+          </div>;
   }
 }
