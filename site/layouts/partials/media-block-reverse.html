@@ -1,12 +1,61 @@
-<div class="flex-m mhn3-m mb4">
-  <div class="ph3-m w-50-m order-last-m">
-    <img src="{{.imageUrl}}" alt="" class="db mb2">
+<div class="flex-m mhn3-m mb4 contenedor-item-portafolio">
+  <div class="ph3-m w-50-m order-last-m contenedor-imagen">
+    <a href="https://{{.url}}" target="_blank" class="etiqueta-imagen">
+      <img src="{{.imageUrl}}" alt="" class="db mb2 imagen-portafolio">
+    </a>
+    <div class="contenedor-link-portafolio">
+      <span class="{{.clase}}"><strong>{{.estado}}</strong></span>
+      <a class="btn raise btn-base kode-mono-btn" href="https://{{.url}}" target="_blank">{{.url}}</a>
+    </div>
   </div>
 
   <div class="ph3-m w-50-m">
     <h3 class="f3 b lh-title mb1 kode-mono-subtitulo">{{.heading}}</h3>
-    <p class="roboto-mono">{{.text}}</p>
-    <a href="https://{{.url}}" target="_blank">{{.url}}</a>
+    <p class="bungee-hairline-textos">{{.text}}</p>
+
+    <div class="contenedor-vertical">
+      {{ if (.carac1) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac1}}</span>
+      {{ end }}
+      {{ if (.carac2) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac2}}</span>
+      {{ end }}
+      {{ if (.carac3) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac3}}</span>
+      {{ end }}
+      {{ if (.carac4) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac4}}</span>
+      {{ end }}
+      {{ if (.carac5) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac5}}</span>
+      {{ end }}
+      {{ if (.carac6) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac6}}</span>
+      {{ end }}
+      {{ if (.carac7) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac7}}</span>
+      {{ end }}
+      {{ if (.carac8) }}
+      <span class="bungee-hairline-textos">
+        <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
+        {{.carac8}}</span>
+      {{ end }}
+    </div>
+
   </div>
 
 </div>

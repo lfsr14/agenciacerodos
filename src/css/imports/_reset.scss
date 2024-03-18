@@ -204,6 +204,53 @@ body {
 .texto-justificado {
 	text-align: justify;
 }
+.tag-estado {
+	font-size: small;
+	display: block;
+	padding: 2px 0 !important;
+	margin: 10px !important;
+}
+.pruebas {
+	background: #308446;
+}
+.produccion {
+	background: #5564eb;
+}
+.contenedor-link-portafolio {
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+
+.etiqueta-imagen {
+	display: block;
+	position: relative;
+}
+.etiqueta-imagen:hover .imagen-portafolio {
+	transform: scale(1.1); /* Zoom */
+	border: 2px solid white; /* Borde blanco */
+}
+.imagen-portafolio {
+	transition: transform 0.3s ease; /* Transición suave del zoom */
+}
+
+.contenedor-vertical {
+	display: flex;
+	flex-direction: column;
+}
+.contenedor-vertical span{
+	display: flex;
+}
+.icon-ok {
+	max-width: 30px;
+    max-height: 30px;
+    margin-right: 20px;
+}
+
+.contenedor-item-portafolio {
+	margin: 100px 0 !important;
+}
+
 @media screen and (max-width: 768px) {
 	.rubik {
 		font-size: 60px !important;
