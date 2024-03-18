@@ -251,7 +251,19 @@ body {
 	margin: 100px 0 !important;
 }
 
+.mobile-only {
+	display: none;
+}
+.desktop-only {
+	display: block;
+}
 @media screen and (max-width: 768px) {
+	.mobile-only {
+		display: block;
+	}
+	.desktop-only {
+		display: none !important;
+	}
 	.rubik {
 		font-size: 60px !important;
 	}

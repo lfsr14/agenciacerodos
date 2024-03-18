@@ -5,7 +5,7 @@
     </a>
     <div class="contenedor-link-portafolio">
       <span class="{{.clase}}"><strong>{{.estado}}</strong></span>
-      <a class="btn raise btn-base kode-mono-btn" href="https://{{.url}}" target="_blank">{{.url}}</a>
+      <a class="btn raise btn-base kode-mono-btn desktop-only" href="https://{{.url}}" target="_blank">{{.url}}</a>
     </div>
   </div>
 
@@ -54,6 +54,10 @@
         <img src="/img/logos/Logo-ok.png" alt="ok" class="br0 db mb0 w-100 icon-ok"/>
         {{.carac8}}</span>
       {{ end }}
+    </div>
+
+    <div class="contenedor-link-portafolio mobile-only">
+      <a class="btn raise btn-base kode-mono-btn" href="https://{{.url}}" target="_blank">{{.url}}</a>
     </div>
 
   </div>
