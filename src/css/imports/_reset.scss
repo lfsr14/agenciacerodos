@@ -250,7 +250,12 @@ body {
 .contenedor-item-portafolio {
 	margin: 100px 0 !important;
 }
-
+.menu-footer {
+	font-size: small;
+}
+.grupo-footer div h3 {
+	color: white !important;
+}
 .mobile-only {
 	display: none;
 }
@@ -278,5 +283,8 @@ body {
 	}
 	.bungee-hairline-textos {
 		font-size: large;
+	}
+	.fondo-menu li{
+		border-bottom: 1px solid white;
 	}
 }
