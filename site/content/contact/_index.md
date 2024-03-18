@@ -1,19 +1,10 @@
 ---
 title: "Contact"
-logo: "/img/logo.svg"
-contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+logo: "/img/logos/Logo-a02-completo.png"
+
 ---
+Nos encantaría ponernos en contacto contigo y escuchar tus ideas y preguntas. Nos esforzamos por crecer y mejorar constantemente y tus comentarios son muy valiosos para nosotros.
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
+También puedes utilizar el formulario a continuación para cualquier consulta sobre disponibilidad de tiempo, o en general para cualquier consulta que tengas. ¡escríbenos!
 
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
 
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!

@@ -1,14 +1,6 @@
 <li class="dib ph2 raise">
-  <a href="{{.link}}" class="link bg-black black db relative br-100 pa2">
+  <a href="{{.link}}"  target="_blank" class="link bg-black black db relative br-100 pa2">
     <!-- see SVG tips for alt text https://www.w3.org/WAI/tutorials/images/tips/ -->
-    <svg width="16px" height="16px" class="db" aria-labelledby="alt-{{.svg}}">
-      <title id="alt-{{.svg}}">{{.alt}}</title>
-        {{ $imageFile := (print "/img/" .svg ".svg") }}
-        {{ with resources.Get $imageFile }}
-          {{ (resources.Minify .).Content | safe.HTML }}
-        {{ else }}
-          {{ warnf "missing icon %s" $imageFile }}
-        {{ end }}
-    </svg>
+    <img src="/img/logos/Logo-linkedin.png" alt="LinkedIN" class="br0 db mb0 w-100 redes-sociales"/>
   </a>
 </li>

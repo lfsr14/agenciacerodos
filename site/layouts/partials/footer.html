@@ -1,10 +1,10 @@
-<footer class="bg-black ph3 pv4 white">
+<footer class="bg-black ph3 pv4 white fondo-footer">
 
 	<div class="mw7 center pt3">
 
-		<div class="measure-narrow center mb4">
+		<div class="measure-narrow center mb4 roboto-mono texto-footer">
 
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
+			<img src="/img/logos/Logo-a02-completo.png" alt="Agencia 02 logo" class="db w4 center mb4 br0">
 			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
 			<p>{{ .Site.Data.footer.blurb }}</p>
 
@@ -15,31 +15,23 @@
 		<div class="flex-ns justify-between">
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+				<h3 class="f4 b lh-title mb1 primary kode-mono-generica">Agencia 02</h3>
 				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+					<li><a href="/" class="link kode-mono-generica">Home</a></li>
+					<li><a href="/values" class="link kode-mono-generica">Portafolio</a></li>
+					<li><a href="/products" class="link kode-mono-generica">Servicios</a></li>
+					<li><a href="/contact" class="link kode-mono-generica">Contacto</a></li>
 				</ul>
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule an appointment</a></li>
-				</ul>
+				<h3 class="f4 b lh-title mb1 primary kode-mono-generica">Bogotá D.C | Colombia</h3>
 			</div>
 
 			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
+				<h3 class="f4 b lh-title mb2 primary kode-mono-generica">Redes Sociales</h3>
 				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter" "alt" "Kaldi on Twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram" "alt" "Kaldi on Instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo" "alt" "Kaldi on Vimeo") }}
+					{{ partial "social-icon" (dict "link" "https://www.linkedin.com/in/agencia02" "svg" "icons-facebook" "alt" "Kaldi on Facebook") }}
 				</ul>
 			</div>
 
