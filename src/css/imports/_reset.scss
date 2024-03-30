@@ -120,7 +120,7 @@ body {
 .bungee-hairline-textos {
 	font-family: 'Bungee Hairline', sans-serif;
 	font-style: normal;
-	font-weight: 500 !important;
+	font-weight: 600 !important;
 	font-size: x-large;
 }
 
@@ -256,12 +256,16 @@ body {
 .grupo-footer div h3 {
 	color: white !important;
 }
+.texto-footer {
+	font-size: large;
+}
 .mobile-only {
 	display: none;
 }
 .desktop-only {
 	display: block;
 }
+
 @media screen and (max-width: 768px) {
 	.mobile-only {
 		display: block;
